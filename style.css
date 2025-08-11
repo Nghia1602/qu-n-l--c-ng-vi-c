@@ -1,0 +1,86 @@
+.tieude {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+/* --------------------------Nhâp CV-------------------- */
+
+.themcongviec {
+    list-style: none;
+    border: 1px solid #0e1c27;
+    width: 400px;
+    height: 400px;
+}
+
+.nhapcongviec {
+    border: 1px solid #0e0d0d;
+    width: 390px;
+}
+
+.nhapmota {
+    border: 1px solid #0e0d0d;
+    width: 390px;
+    height: 100px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.themcongviec li {
+    padding: 2px;
+    margin-right: 10px;
+}
+
+#btnthem {
+    background-color: rgb(108, 156, 218);
+}
+
+/* ------------------------------MÔ TẢ CÔNG VIỆC---------------------- */
+
+.congviec {
+    border: 1px solid #000000;
+    width: 390px;
+    height: 25px;
+    text-align: center;
+}
+
+.mota {
+    border: 1px solid #000000;
+    width: 390px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.chitietcongviec {
+    border: #000000 1px solid;
+    width: 400px;
+    list-style: none;
+    height: 400px;
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+    /* sắp xếp theo hàng dọc */
+    align-items: center;
+
+
+}
+
+.chitietcongviec li,
+.chitietcongviec div {
+    padding-left: 2px;
+
+}
+
+/* ------------CHUNG----------------------- */
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
